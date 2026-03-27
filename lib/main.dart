@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.all(16),
               child: TextField(
                 controller: _noteController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: 'Tap note',
                   border: OutlineInputBorder(),
                 ),
